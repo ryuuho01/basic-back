@@ -7,7 +7,7 @@ use App\Http\Controllers\GenreController;
 use App\Http\Controllers\ShopController;
 use App\Http\Controllers\FavoriteController;
 use App\Http\Controllers\ReservationController;
-use App\Http\Middleware\Cors;
+// use App\Http\Middleware\Cors;
 
 Route::apiResource('/user', UserController::class);
 Route::apiResource('/area', AreaController::class);
