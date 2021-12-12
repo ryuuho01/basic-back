@@ -11,7 +11,7 @@ class Genre extends Model
     protected $guarded = array('id');
 
     public static $rules = array(
-        'genrea_name' => 'required',
+        'genre_name' => 'required',
     );
 
     // public function getgenresData()
