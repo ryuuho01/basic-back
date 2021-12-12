@@ -16,13 +16,13 @@ Route::apiResource('/shop', ShopController::class);
 Route::apiResource('/favorite', FavoriteController::class);
 Route::apiResource('/reservation', ReservationController::class);
 
-Route::middleware(['cors'])->group(function () {
+// Route::middleware(['cors'])->group(function () {
 
-  Route::apiResource('/user', UserController::class);
-  Route::apiResource('/area', AreaController::class);
-  Route::apiResource('/genre', GenreController::class);
-  Route::apiResource('/shop', ShopController::class);
-  Route::apiResource('/favorite', FavoriteController::class);
-  Route::apiResource('/reservation', ReservationController::class);
+//   Route::apiResource('/user', UserController::class);
+//   Route::apiResource('/area', AreaController::class);
+//   Route::apiResource('/genre', GenreController::class);
+//   Route::apiResource('/shop', ShopController::class);
+//   Route::apiResource('/favorite', FavoriteController::class);
+//   Route::apiResource('/reservation', ReservationController::class);
 
-});
+// });
