@@ -18,9 +18,9 @@ class ShopController extends Controller
     {
         $items = Shop::all();
         foreach ($items as $item) {
-            $item->area_name = $item->area->area_name;
-            $item->genre_name = $item->genre->genre_name;
-            $item->favorites = $item->getFavorites;
+            $item->area_name = 1;
+            $item->genre_name = 2;
+            $item->favorites = 1;
             $item->reservations = $item->getReservations;
         };
         return response()->json([
@@ -52,7 +52,7 @@ class ShopController extends Controller
         ];
         Shop::create($item_content);
 
-        return redirect("https://infinite-plateau-76316.herokuapp.com/");
+        return redirect("https://infinite-plateau-76316.herokuapp.com");
     }
     /**
      * Display the specified resource.
