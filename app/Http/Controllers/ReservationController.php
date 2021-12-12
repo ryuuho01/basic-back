@@ -36,7 +36,7 @@ class ReservationController extends Controller
             'num_members' => $num_members,
         ];
         $item = Reservation::create($item_content);
-        return redirect("http://localhost:3000/done");
+        return redirect("https://infinite-plateau-76316.herokuapp.com/done");
 
         // return response()->json([
         //     'data' => $item

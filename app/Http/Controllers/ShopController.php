@@ -52,7 +52,7 @@ class ShopController extends Controller
         ];
         Shop::create($item_content);
 
-        return redirect("http://localhost:3000/");
+        return redirect("https://infinite-plateau-76316.herokuapp.com/");
     }
     /**
      * Display the specified resource.
