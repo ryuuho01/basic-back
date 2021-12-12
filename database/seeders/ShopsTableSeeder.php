@@ -16,7 +16,7 @@ class ShopsTableSeeder extends Seeder
     {
         $param = [
             'area_id' => 124,
-            'genre_id' => 34,
+            'genre_id' => 4,
             'shop_name' => '仙人',
             'description' => '料理長厳選の食材から作る寿司を用いたコースをぜひお楽しみください。食材・味・価格、お客様の満足度を徹底的に追及したお店です。特別な日のお食事、ビジネス接待まで気軽に使用することができます。',
             'pic_path' => 'https://advance-backet.s3.ap-northeast-1.amazonaws.com/sushi.jpeg',
@@ -40,7 +40,7 @@ class ShopsTableSeeder extends Seeder
         DB::table('shops')->insert($param);
         $param = [
             'area_id' => 124,
-            'genre_id' => 34,
+            'genre_id' => 4,
             'shop_name' => 'ルーク',
             'description' => '都心にひっそりとたたずむ、古民家を改築した落ち着いた空間です。イタリアで修業を重ねたシェフによるモダンなイタリア料理とソムリエセレクトによる厳選ワインとのペアリングが好評です。ゆっくりと上質な時間をお楽しみください。',
             'pic_path' => 'https://advance-backet.s3.ap-northeast-1.amazonaws.com/italian.jpeg',
@@ -88,7 +88,7 @@ class ShopsTableSeeder extends Seeder
         DB::table('shops')->insert($param);
         $param = [
             'area_id' => 124,
-            'genre_id' => 34,
+            'genre_id' => 4,
             'shop_name' => '築地色合',
             'description' => '鮨好きの方の為の鮨屋として、迫力ある大きさの握りを1貫ずつ提供致します。',
             'pic_path' => 'https://advance-backet.s3.ap-northeast-1.amazonaws.com/sushi.jpeg',
@@ -120,7 +120,7 @@ class ShopsTableSeeder extends Seeder
         DB::table('shops')->insert($param);
         $param = [
             'area_id' => 264,
-            'genre_id' => 34,
+            'genre_id' => 4,
             'shop_name' => '福助',
             'description' => 'ミシュラン掲載店で磨いた、寿司職人の旨さへのこだわりはもちろん、 食事をゆっくりと楽しんでいただける空間作りも意識し続けております。 接待や大切なお食事にはぜひご利用ください。',
             'pic_path' => 'https://advance-backet.s3.ap-northeast-1.amazonaws.com/sushi.jpeg',
@@ -144,7 +144,7 @@ class ShopsTableSeeder extends Seeder
         DB::table('shops')->insert($param);
         $param = [
             'area_id' => 124,
-            'genre_id' => 34,
+            'genre_id' => 4,
             'shop_name' => '経緯',
             'description' => '職人が一つ一つ心を込めて丁寧に仕上げた、江戸前鮨ならではの味をお楽しみ頂けます。鮨に合った希少なお酒も数多くご用意しております。他にはない海鮮太巻き、当店自慢の蒸し鮑、是非ご賞味下さい。',
             'pic_path' => 'https://advance-backet.s3.ap-northeast-1.amazonaws.com/sushi.jpeg',
@@ -168,7 +168,7 @@ class ShopsTableSeeder extends Seeder
         DB::table('shops')->insert($param);
         $param = [
             'area_id' => 264,
-            'genre_id' => 34,
+            'genre_id' => 4,
             'shop_name' => '木船',
             'description' => '毎日店主自ら市場等に出向き、厳選した魚介類が、お鮨をはじめとした繊細な料理に仕立てられます。また、選りすぐりの種類豊富なドリンクもご用意しております。',
             'pic_path' => 'https://advance-backet.s3.ap-northeast-1.amazonaws.com/sushi.jpeg',
