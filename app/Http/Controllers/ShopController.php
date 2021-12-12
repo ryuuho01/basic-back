@@ -20,7 +20,7 @@ class ShopController extends Controller
         foreach ($items as $item) {
             $item->area_name = 1;
             $item->genre_name = 2;
-            $item->favorites = 1;
+            $item->favorites = $item->getFavorites;
             $item->reservations = $item->getReservations;
         };
         return response()->json([
