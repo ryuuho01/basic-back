@@ -19,7 +19,7 @@ class ShopController extends Controller
         $items = Shop::all();
         foreach ($items as $item) {
             $item->area_name = 1;
-            $item->genre_name = $item->genre->genre_name;
+            $item->genre_name = $item->genre;
             $item->favorites = $item->getFavorites;
             $item->reservations = $item->getReservations;
         };
