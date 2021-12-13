@@ -40,7 +40,7 @@ class ShopsTableSeeder extends Seeder
         DB::table('shops')->insert($param);
         $param = [
             'area_id' => 124,
-            'genre_id' => 4,
+            'genre_id' => 34,
             'shop_name' => 'ルーク',
             'description' => '都心にひっそりとたたずむ、古民家を改築した落ち着いた空間です。イタリアで修業を重ねたシェフによるモダンなイタリア料理とソムリエセレクトによる厳選ワインとのペアリングが好評です。ゆっくりと上質な時間をお楽しみください。',
             'pic_path' => 'https://advance-backet.s3.ap-northeast-1.amazonaws.com/italian.jpeg',
